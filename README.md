@@ -33,7 +33,7 @@ Minecraft server mods for Fabric built on the CloveLib API framework.
 ./gradlew :pluginname:shadowJar
 ```
 
-**Installation:** Download from [Modrinth](https://modrinth.com/organization/clovelib) → Install CloveLibAPI first → Add other plugins → Configure
+**Installation:** Download from [CloveLib Studios](https://www.clovelib.win)
 
 ## Contributors
 
