@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "cloves-pluralcraft",
+	"version": "${version}",
+	"name": "Clove's PluralCraft",
+	"description": "This is a mod for users to proxy their alters in Minecraft",
+	"authors": [
+		"CloveTwilight3"
+	],
+	"contact": {
+		"homepage": "https://clovelib.win/",
+		"sources": "https://github.com/CloveLib/CloveLibFabric"
+	},
+	"license": "Estrogen Source-Available Licence",
+	"icon": "assets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["win.clovelib.cpc.ClovesPluralCraft"]
+	},
+	"mixins": [
+		"cpc.mixins.json",
+		{
+			"config": "cpc.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
